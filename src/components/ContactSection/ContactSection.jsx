@@ -20,7 +20,8 @@ function ContactSection() {
         <div className="form-overlay">
          
           
-          <form
+          <form 
+
             onSubmit={handleSubmit}
             name="contact"
             method="POST"
@@ -40,9 +41,9 @@ function ContactSection() {
               required
             ></textarea>
 
-            <button type="submit">
-              Send
-            </button>
+             <div>
+        <input type="submit" className="submit" value="Send Message" />
+      </div>
           </form>
 
           
