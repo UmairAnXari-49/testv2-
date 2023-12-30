@@ -11,6 +11,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+     <Contact />
       <Navbar />
       <HeroSection id="home" />
       <AboutSection id="about" />
@@ -19,6 +20,9 @@ function App() {
       <ContactSection id="contact" />
       <Footer />
     </div>
+
+
+  
   );
 }
 
