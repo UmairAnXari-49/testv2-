@@ -18,30 +18,17 @@ function ContactSection() {
         </video>
 
         <div className="form-overlay">
-          <form
-            onSubmit={handleSubmit}
-            name="contact"
-            method="POST"
-            data-netlify="true"
-          >
-            <input type="hidden" name="form-name" value="contact" />
-
-            <h1>Let's talk</h1>
-
-            <input type="email" name="email" placeholder="Email" required />
-
-            <input type="text" name="subject" placeholder="Subject" required />
-
-            <textarea
-              name="message"
-              placeholder="Your message"
-              required
-            ></textarea>
-
-            <button type="submit" className="send-button">
-              Send
-            </button>
-          </form>
+         <form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
         </div>
       </div>
     </div>
