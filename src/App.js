@@ -11,6 +11,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+
+     <ContactSection />
+    
       <Navbar />
       <HeroSection id="home" />
       <AboutSection id="about" />
