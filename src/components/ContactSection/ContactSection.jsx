@@ -18,7 +18,10 @@ function ContactSection() {
         </video>
 
         <div className="form-overlay">
-         <form name="contact" netlify>
+          
+          
+          
+        <form name="contact" netlify>
   <p>
     <label>Name <input type="text" name="name" /></label>
   </p>
@@ -29,6 +32,8 @@ function ContactSection() {
     <button type="submit">Send</button>
   </p>
 </form>
+
+          
         </div>
       </div>
     </div>
